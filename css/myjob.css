@@ -1,0 +1,852 @@
+body{
+	background: url(body.png);
+	background-attachment: fixed;
+}
+
+header {
+	background-color: #222;
+	margin-top: -0.8%;
+	margin-left: -0.6%;
+	margin-right: -0.6%;
+}
+
+.logo {
+	float: left;
+	width: 40%;
+}
+
+.logo img {
+	width: 20%;
+	height: 20%;
+	margin-left: 40%;
+	margin-top: 2%;
+}
+
+nav {
+	background-color: #222;
+	width: 58%;
+	margin-left: 40%;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	margin-top: 5%;
+	list-style-type: none;
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+
+.arrow {
+	color: #56b086;
+	font-size: 10px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #d8d8d8;
+	font-family: arial;
+	font-weight: bold;
+}
+
+nav ul li a:hover {
+	color: #56b086;
+}
+
+.wrapper {
+	margin-top: -0.6%;
+	margin-left: -0.6%;
+	margin-right: -0.6%;
+}
+
+.banner {
+	width: 50%;
+	margin-top: 8px;
+}
+
+.banner img {
+	width: 100%;
+	height: 100%;
+}
+
+.banner_side {
+	width: 50%;
+	background-color: #222;
+	float: right;
+}
+
+.banner_side h2 {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 9.3%;
+	line-height: 200%;
+	letter-spacing: 1px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.banner_side p {
+	color: #56a086;
+	font-family: Segoe Ui;
+    font-weight: 400;
+	font-size: 16px;
+	max-width: 560px;
+	margin: 0px 0px 3.3333% 18px;
+	letter-spacing: 1px;
+	line-height: 30px;
+}
+
+.search_form {
+	width: 100%;
+	margin-top: 1%;
+	margin-bottom: 0.5%;
+}
+
+.search_form select {
+	padding: 1%;
+	width: 20%;
+	margin-left: 8%;
+	border: 1px solid #56b086;
+	border-top-left-radius: 10px; 
+	border-bottom-left-radius: 10px;
+	background-color: #fff;
+	font-family: lato_regular;
+	font-size: 20px;
+
+}
+
+.job_search {
+	padding: 1%;
+	width: 40%;
+	border: 1px solid #56b086;
+	font-family: lato_regular;
+	font-size: 20px;
+}
+
+.job_search_btn {
+	padding: 1%;
+	width: 20%;
+	border: 0px;
+	border-top-right-radius: 10px; 
+	border-bottom-right-radius: 10px;
+	background-color: #56b086;
+	color: #fff;
+	font-family: lato_regular;
+	font-size: 20px;
+	text-align: center;
+}
+
+.section {
+	margin-left: -0.6%;
+	margin-right: -0.6%;
+}
+
+.stock_section {
+	float: left;
+	width: 50%;
+	background-color: #fff;
+}
+
+.newest_stock {
+	width: 100%;
+}
+
+.newstock_header {
+	border-bottom: 4px double #999;
+}
+
+.stock_item img {
+	width: 50%;
+	margin-left: 25%;
+	border: 1px solid #ddd;
+	box-shadow: 0px 0px 4px #999;
+}
+
+.stock_item {
+	width: 20%;
+	padding: 1%;
+	margin-left: 2%;
+	margin-bottom: 5%;
+	float: left;
+	border: 1px solid #56b086;	
+	box-shadow: 0px 0px 4px #999;
+}
+
+.item_name {
+	text-align: center;
+	background-color: #56b086;
+	color: #fff;
+	margin-top: 5px;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.item_price {
+	text-align: center;
+	color: #cc0323;
+}
+
+.wishlist {
+	width: 100%;
+}
+
+.wish {
+	margin-left: 10%;
+	text-align: center;
+	background-color: #56b086;
+	color: #fff;
+	border: 0px;
+	border-radius: 2px;
+}
+
+.cart {
+	text-align: center;
+	background-color: #56b086;
+	color: #fff;
+	border: 0px;
+	border-radius: 2px;
+}
+
+.auction_jobs {
+	margin-left: 50%;
+	width: 50%;
+	background-color: #222;
+}
+
+h3 {
+	font-family: Georgia;
+	color: #56b086;
+	text-align: center;
+	font-size: 25px;
+}
+
+.auction_jobs p {
+	font-family: lato_regular;
+	border-bottom: 2px solid #fff;
+	color: #fff;
+	font-size: 17px;
+	text-align: center;
+}
+
+.comment_section h4 {
+	text-align: center;
+	font-family: lato_bold;
+	font-size: 30px;
+}
+
+.comment_drop {
+	background-color: #fff;
+	font-size: 20px;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding: 1%;
+	border-bottom: 4px solid #56b086;
+	border-radius: 10px;
+}
+
+.comment_date {
+	font-size: 80%;
+	color: #dd0103;
+}
+
+.about_section {
+	background-color: #222;
+	margin-left: -0.6%;
+	margin-right: -0.6%;
+	margin-bottom: -2%;
+}
+
+.about_section h4 {
+	text-align: center;
+	font-family: lato_bold;
+	font-size: 28px;
+	color: #56b086;
+}
+
+.about_section p {
+	font-family: lato_regular;
+	color: #fff;
+	font-size: 18px;
+	margin: 2%;
+	padding-bottom: 2%;
+	letter-spacing: 1px;
+}
+
+footer {
+	background-color: #eee;
+	margin-left: -0.6%;
+	margin-right: -0.6%;
+	padding-bottom: 1%;
+	padding-top: 0.1%;
+	border-top: 1px solid #999;
+}
+
+footer img {
+	width: 10%;
+	margin: 2%;
+	margin-bottom: 0px;
+}
+
+footer p {
+	text-align: center;
+}
+
+.icons img {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 1.5%;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/*----END OF CSS FOR INDEX PAGE---*/
+
+/*----CSS FOR E-STORE BEGINS HERE----*/
+
+.store_container {
+	background-color: #fff;
+	width: 70%;
+	margin: auto;
+}
+
+.e-store_form {
+	margin: auto;
+	width: 90%;
+	padding-bottom: 2%;
+}
+
+.search_space {
+	width: 50%;
+	margin-top: 2%;
+	margin-left: 7%;
+	padding: 1%;
+	border: 1px solid #333;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	font-family: lato_regular;
+	font-size: 20px;
+	background-color: #333;
+	color: #fff;
+}
+
+.search_btn {
+	width: 30%;
+	margin-left: 5%;
+	margin-top: 2%;
+	padding: 1%;
+	border: 0px;
+	border-top-right-radius: 10px; 
+	border-bottom-right-radius: 10px;
+	background-color: #56b086;
+	color: #fff;
+	font-family: lato_regular;
+	font-size: 20px;
+	text-align: center;
+}
+
+.e-store_stock_section {
+	width: 100%;
+	background-color: #fff;
+	
+}
+
+.e-Store_stock {
+	margin-left: 2.3%;
+	margin-bottom: 2%;
+	padding: 1%;
+	float: left;
+	width: 20%;
+	border: 1px solid #56b086;
+	box-shadow: 0px 0px 4px #999;
+}
+
+.e-Store_stock_item img {
+	border: 1px solid #ddd;
+	box-shadow: 0px 0px 4px #999;
+	margin-left: 15%;
+	width: 70%;
+}
+
+.e-Store_wishlist {
+	width: 100%;
+}
+
+.e-Store_wish {
+	margin-left: 15%;
+	text-align: center;
+	background-color: #56b086;
+	color: #fff;
+	border: 0px;
+	border-radius: 2px;
+}
+
+.e-Store_cart {
+	margin-left: 10%;
+	text-align: center;
+	background-color: #56b086;
+	color: #fff;
+	border: 0px;
+	border-radius: 2px;
+}
+
+
+.e-Store_item_name {
+	text-align: center;
+	background-color: #56b086;
+	color: #fff;
+	margin-top: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.e-Store_item_price {
+	text-align: center;
+	color: #cc0323;
+}
+
+/*--CSS FOR LOGIN PAGE---*/
+
+.login_wrapper {
+	margin-left: -0.6%;
+	margin-right: -0.6%;
+	margin-top: -0.6%;
+	background-color: #222;
+}
+
+.login_banner {
+	width: 50%;
+	margin-top: 8px;
+}
+
+.login_banner img {
+	width: 100%;
+	height: 100%;
+}
+
+.login {
+	float: right;
+	width: 50%;
+	background-color: #222;
+	padding-top: 5%;
+	padding-bottom: 5.2%;
+}
+
+.login_form {
+	width: 80%;
+	margin: auto;
+	line-height: 2;
+}
+
+.login_form p {
+	color: #56b086;
+	letter-spacing: 1px;
+	font-family: arial;
+}
+
+.usernamebar {
+	width: 90%;
+	margin: auto;
+	background-color: #000;
+	color: #999;
+	padding: 1%;
+	border: 0px;
+	border-radius: 2px;
+	font-family: arial;
+	font-size: 100%;
+}
+
+.passwordbar {
+	width: 90%;
+	margin: auto;
+	background-color: #000;
+	color: #999;
+	padding: 1%;
+	border-radius: 2px;
+	border: 0px;
+	font-family: arial;
+	font-size: 100%;
+}		
+.signin {
+	background-color: #56b086;
+	padding: 3%;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: arial;
+	color: #fff;
+	width: 30%;
+	letter-spacing: 1px;
+	font-size: 100%;
+}
+
+.register {
+	border: 0px;
+	color: #56b086;
+	background-color: transparent;
+	letter-spacing: 1px;
+	font-size: 100%;
+	font-family: arial;
+}
+
+.forget_password {
+	border: 0px;
+	color: #56b086;
+	background-color: transparent;
+	letter-spacing: 1px;
+	font-size: 100%;
+	font-family: arial;
+	margin-left: -2%;
+}
+
+.register_form {
+	width: 80%;
+	margin: auto;
+	line-height: 2;
+}
+
+.register_form p {
+	color: #56b086;
+	letter-spacing: 1px;
+	font-family: arial;
+}
+
+.firstnamebar {
+	width: 70%;
+	margin: auto;
+	background-color: #000;
+	color: #999;
+	padding: 1%;
+	border: 0px;
+	border-radius: 2px;
+	font-family: arial;
+	font-size: 100%;
+}
+
+.lastnamebar {
+	width: 70%;
+	margin: auto;
+	background-color: #000;
+	color: #999;
+	padding: 1%;
+	border: 0px;
+	border-radius: 2px;
+	font-family: arial;
+	font-size: 100%;
+}
+
+.regpasswordbar {
+	width: 70%;
+	margin: auto;
+	background-color: #000;
+	color: #999;
+	padding: 1%;
+	border-radius: 2px;
+	border: 0px;
+	font-family: arial;
+	font-size: 100%;
+}
+
+.signup {
+	background-color: #56b086;
+	padding: 3%;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: arial;
+	color: #fff;
+	width: 30%;
+	letter-spacing: 1px;
+	font-size: 100%;
+}
+
+.account_exist {
+	border: 0px;
+	color: #56b086;
+	background-color: transparent;
+	letter-spacing: 1px;
+	font-size: 100%;
+	font-family: arial;
+}
+
+/*--CSS FOR VACANCY PAGE---*/
+
+.vacancy_drop {
+	background-color: #fff;
+	font-size: 20px;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding: 1%;
+	border-bottom: 4px solid #56b086;
+	border-radius: 10px;
+}
+
+.posted {
+	font-size: 80%;
+	color: #dd0103;
+}
+
+/*---MEDIA FOR INDEX PAGE---*/
+@media screen and (max-width: 1280px) {
+	.banner_side h2 {
+		font-size: 20px;
+	}
+
+	.newest_stock {
+		width: 90%;
+	}
+	
+	.stock_item {
+		width: 100px;
+		height: 120px;
+	}
+	
+	.stock_item img {
+		width: 30%;
+	}
+	
+	.item_name {
+		font-size: 8px;
+	}
+
+	.item_price {
+		font-size: 8px;
+	}
+
+	.wishlist {
+		font-size: 8px;
+	}
+
+	.wish {
+		font-size: 8px;
+		width: 50%;
+		margin: auto;
+		margin-top: 2;
+		margin-left: 25%;
+		margin-bottom: 5%;
+	}
+
+	.cart {
+		font-size: 10px;
+		margin-left: 25%;
+		margin-bottom: 5%;
+		width: 50%;
+	}
+	
+	.newest_stock {
+		width: 100%;
+	}
+	
+	.stock_item img {
+		margin-left: 33%;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	
+	.banner_side {
+		width: 100%;
+	}
+	
+	.banner {
+		width: 100%;
+	}
+	
+	.stock_section {
+		width: 100%;
+	}
+	
+	.auction_jobs {
+		width: 100%;
+		margin: 0px;
+	}
+	
+	.stock_item {
+		margin-left: 6%;
+	}
+	
+	nav ul li {
+		font-size: 11px;
+		font-weight: normal;
+	}
+	
+	.stock_item {
+		width: 15%;
+	}
+	
+	.wish {
+		margin-left: 25%;
+		margin-bottom: 5%;
+		width: 50%;
+	}
+	
+	.cart {
+		margin-left: 25%;
+		margin-bottom: 5%;
+		width: 50%;
+	}
+	
+	.stock_item img {
+		margin-left: 33%;
+	}
+}
+
+	
+@media screen and (max-width: 478px) {
+	
+	.banner_side {
+		width: 100%;
+	}
+	
+	.banner {
+		width: 100%;
+	}
+	
+	.stock_section {
+		width: 100%;
+	}
+	
+	.auction_jobs {
+		width: 100%;
+		margin: 0px;
+	}
+	
+	.stock_item {
+		margin-left: 11%;
+		width: 30%;
+		height: 100%;
+	}
+	
+	nav ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	nav ul li {
+		text-align: center;
+		margin: 0 auto;
+		margin-left: 0.8%;
+		width: 100%;
+	}
+	
+	.logo img {
+		width: 40%;
+		margin-top: 5%;
+	}
+	
+	.wish {
+		margin-left: 25%;
+		margin-bottom: 5%;
+		width: 50%;
+	}
+	
+	.cart {
+		margin-left: 25%;
+		margin-bottom: 5%;
+		width: 50%;
+	}
+	
+	.stock_item img {
+		margin-left: 33%;
+	}
+}
+
+
+/*--MEDIA FOR E-STORE--*/
+
+@media screen and (max-width: 478px) {
+	
+	body {
+		background-attachment: fixed;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	.e-Store_stock {
+		width: 40%;
+		margin-left: 5%;
+	}
+	
+	.e-Store_wish {
+		font-size: 14px;
+		margin-left: 14%;
+	}
+
+	.e-Store_cart {
+		font-size: 14px;
+		margin-left: 25%;
+	}
+
+
+	.e-Store_item_name {
+		font-size: 14px;
+	}
+	
+	body {
+		background-attachment: fixed;
+	}
+	
+	.store_container {
+		width: 90%;
+	}
+	
+	.search_form select {
+		font-size: 10px;
+	}
+
+	.job_search {
+		font-size: 10px;
+	}
+
+	.job_search_btn {
+		font-size: 10px;
+	}
+	
+	.search_space {
+		font-size: 10px;
+	}
+
+	.search_btn {
+		font-size: 10px;
+	}
+	
+	
+}
+
+@media screen and (max-width: 720px) {
+	.store_container {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.store_container {
+		width: 90%;
+	}
+}
+
+/*---MEDIA FOR LOGIN PAGE---*/
+
+@media screen and (max-width: 740px) {
+	.login {
+		width: 100%;
+	}
+	
+	.login_banner {
+		width: 100%;
+	}
+}
